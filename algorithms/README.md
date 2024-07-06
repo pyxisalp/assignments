@@ -1,4 +1,4 @@
 # Algorithms
-### MP1: maximum sum subrectangle in a 2D array
-### MP2: sorting algorithms
-### MP3: Huffman coding
+### mp1: maximum sum subrectangle in a 2D array
+### mp2: sorting algorithms
+### mp3: Huffman coding
