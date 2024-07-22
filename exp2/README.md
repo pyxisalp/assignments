@@ -1,4 +1,4 @@
-# 컴퓨터공학실험2
+# 실험2
 ### 2주차: Verilog 문법
 ### 3주차: AND, OR, NOT
 ### 4주차: NAND, NOR, XOR
