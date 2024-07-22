@@ -1,0 +1,19 @@
+if [ $# -eq 0 ]
+then
+	echo "Usage: phone searchfor [... searchfor]"
+	echo "(You didn't tell me what you want to search for.)"
+else
+	cnt=0
+	els=""
+	for el in "$@"
+	do
+		els+="$el"
+		cnt=`expr $cnt + 1`
+		if [ $cnt -lt  $# ]
+		then
+			els="$els|"
+		fi
+	done
+	els="egrep -i \"$els\" mydata"
+	eval $els | awk -f display.awk
+fi
