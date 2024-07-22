@@ -1,4 +1,4 @@
-# 컴퓨터공학설계및실험1
+# 실험1
 ### 1~2주차: UNIT
 ### 3~4주차: C++
 ### 6~7주차: Openframeworks waterfall
